@@ -1,7 +1,6 @@
 import React from 'react'
-import { NavHashLink } from 'react-router-dom'
-import "./Nav.css"
 import { NavHashLink } from 'react-router-hash-link'
+import "./Nav.css"
 const Nav = () => {
   return (
     <div>
@@ -15,7 +14,7 @@ const Nav = () => {
           <li>
             <NavHashLink
               smooth
-              to='/'
+              to='/#home'
               className='px-6 py-2.5 text-sm font-semibold tracking-wide text-cyan-300 bg-black/70 backdrop-blur-md border border-cyan-500/80 rounded-full shadow-[0_0_15px_rgba(6,182,212,0.4)] transition-all duration-300 hover:bg-cyan-500 hover:text-black hover:shadow-[0_0_25px_rgba(6,182,212,0.9)] hover:scale-105 active:scale-95 min-w-[110px] inline-block text-center'
             >
               Home

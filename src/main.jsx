@@ -11,8 +11,16 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />, // Outer layout containing <Nav /> and background layers
-    element:<Home/>,
-    element:<About/>,
+    children:[
+      {
+        path:"/home",
+        element:<Home/>,    
+      },
+      {
+        path:"/about",
+        element:<About/>,
+      }
+    ]
   },
 ])
 
