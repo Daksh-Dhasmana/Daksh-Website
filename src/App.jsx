@@ -1,6 +1,9 @@
 import Nav from './Nav'
 import Home from './Home'
 import "./Nav.css"
+import About from './About'
+import {Outlet } from 'react-router-dom'
+
 function App() {
   return (
     <div className='relative min-h-screen w-full overflow-hidden'>
@@ -13,6 +16,7 @@ function App() {
         />
       <main className='w-[calc(100%-120px)] mx-auto bg-black/60 backdrop-blur-md p-8 border border-cyan-500/30 rounded-lg'>
         <Home/>
+        <About/>
       </main>
     </div>
   )
