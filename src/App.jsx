@@ -1,6 +1,6 @@
 import Nav from './Nav'
 import Home from './Home'
-import "./Nav.css"
+import "./Tail.css"
 import About from './About'
 import { Outlet } from 'react-router-dom'
 

@@ -1,16 +1,17 @@
 import React from 'react'
 import { NavHashLink } from 'react-router-hash-link'
+import "./Tail.css"
 import "./Nav.css"
 const Nav = () => {
   return (
     <div>
-      <nav className='h-20 relative border-b border-cyan-500/30 shadow-[0_4px_20px_rgba(6,182,212,0.15)] overflow-hidden'>
-        <img
+      <nav id="sticky-parallax-header" className='relative border-b border-cyan-500/30 shadow-[0_4px_20px_rgba(6,182,212,0.15)] overflow-hidden w-full z-50'>
+          <img
           src="src/Images/N1.gif"
           alt="Navigation Background"
           className='absolute inset-0 -z-10 w-full h-full object-cover'
         />
-        <ul className='flex justify-evenly items-center z-10 h-20 text-white relative'>
+        <ul className='flex justify-evenly items-center h-full text-white w-full'>
           <li>
             <NavHashLink
               smooth
