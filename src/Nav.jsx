@@ -5,7 +5,7 @@ import "./Nav.css"
 const Nav = () => {
   return (
     <div>
-      <nav id="sticky-parallax-header" className='relative border-b border-cyan-500/30 shadow-[0_4px_20px_rgba(6,182,212,0.15)] overflow-hidden w-full z-50'>
+      <nav  className='h-12 fixed border-b border-cyan-500/30 shadow-[0_4px_20px_rgba(6,182,212,0.15)] overflow-hidden w-full z-50'>
           <img
           src="src/Images/N1.gif"
           alt="Navigation Background"
